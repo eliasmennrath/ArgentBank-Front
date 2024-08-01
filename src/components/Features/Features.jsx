@@ -1,6 +1,5 @@
 export default function Features({icon, title, text}) {
 
-    console.log(icon)
     return (
         <div className="feature-item">
             <img src={"./img/icon-" + icon + ".png"} alt={icon + " Icon"} className="feature-icon" />

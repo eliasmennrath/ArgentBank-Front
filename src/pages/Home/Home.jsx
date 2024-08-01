@@ -5,7 +5,6 @@ import './home.css'
 import features from '../../data-features'
 
 export default function Home() {
-
     return (
         <>
             <main>
