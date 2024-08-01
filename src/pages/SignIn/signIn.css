@@ -1,0 +1,28 @@
+section {
+    position: relative;
+}
+.errorMsg {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 5px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 60%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.errorMsg:hover {
+    cursor:default;
+}
+.errorMsg.visible {
+    opacity: 1;
+}
+.errorMsg p {
+    margin: 0;
+}
