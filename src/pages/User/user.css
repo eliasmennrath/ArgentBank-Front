@@ -54,3 +54,11 @@
 .overlay form .error-Msg.visible {
     opacity: 1;
 }
+
+
+@media screen and (max-width: 800px) {
+    .overlay form {
+        width: 80%;
+    }
+    
+}
